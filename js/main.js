@@ -1,21 +1,3 @@
-// document.addEventListener('DOMContentLoaded', function() {
-//     const lazyLoadInstance = new LazyLoad({
-//         elements_selector: ".lazy",
-//         debug: true
-//     });
-//
-//     function lazyLoadBackground() {
-//         const headers = document.querySelectorAll('.header[data-bg]');
-//         headers.forEach(header => {
-//             const bgImage = header.getAttribute('data-bg');
-//             header.style.backgroundImage = `url(${bgImage})`;
-//         });
-//     }
-//
-//     lazyLoadBackground();
-//
-//     console.log(lazyLoadInstance);
-// });
 document.addEventListener('DOMContentLoaded', function() {
     const lazyLoadInstance = new LazyLoad({
         elements_selector: ".lazy",
